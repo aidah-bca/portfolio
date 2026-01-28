@@ -2,14 +2,15 @@
   body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   font-family: Arial, sans-serif;
-background-image:url("bg.png");
+
+  background-image: url("./bg.png");
   background-size: cover;
   background-position: center;
-  
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
+
 
 h1 {
   color: #003366;
@@ -25,7 +26,7 @@ p, li {
 }
 
 .section {
-  background-color: white;
+  
   padding: 15px;
   margin: 15px;
   border-radius: 10px;
@@ -111,7 +112,7 @@ button {
   margin: 40px auto;
   padding: 30px;
 
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
 
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
