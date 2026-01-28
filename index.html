@@ -3,31 +3,67 @@
 <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-
+    
+<p id="message"></p>
 </head>
 <body>
+  <div class="container">
+    <div class = "hero">
+    <h1>Hi, I’m Aidah 👋</h1>
+    <button id="themeToggle">🌙 Dark Mode</button>
+    <button onclick="scrollToSection('about')">About</button>
+<button onclick="scrollToSection('skills')">Skills</button>
+<button onclick="scrollToSection('projects')">Projects</button>
+   <h2>Beginner Web Developer</h2>
+   <p>First-year BCA student learning web development</p>
+</div>
 
-    <h1>Hello, it's me aidah janwari</h1>
-    <p>I am a first year college student</p>
-    <div class="section">
-
-    <h2>About me</h2>
+    <h2 id="about">About me</h2>
     <p>
-        I am a first year bca student interested in computers and learning web development
-        This is my first portfolio project
+        <p>
+         I am a first-year BCA student interested in computers and web development.
+         This is my first personal portfolio project, built using HTML and CSS.
+</p>
     </p>
     </div>
-    <h3>Skills</h3>
+    <h3 id="skills">Skills</h3>
     <UL>
           <LI>HTML</LI>
           <LI>CSS</LI>
-          <LI>BASIC PYTHON</LI>
+          <li>Python (Basics)</li>
+          <li>JavaScript (Basics)</li>
     </UL>
-    <h4>Projects</h4>
-    <p>Personal portfolio website</p>
-
-    <button>Contact me</button>
-    <p>Email:aidahjanwari595@gmail.com</P>
     
+    <h2>Projects</h2>
+
+<div class="projects">
+  <div class="project-card">
+    <h3>Personal Portfolio Website</h3>
+    <p>A responsive personal portfolio built using HTML, CSS, and basic JavaScript.</p>
+    <p class="tech">HTML • CSS • JavaScript</p>
+    <a href="https://github.com/aidah-bca" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h3>Simple Task Manager</h3>
+    <p>A basic task manager app with add and delete functionality.</p>
+    <p class="tech">HTML • CSS • JavaScript</p>
+    <a href="https://github.com/aidah-bca" target="_blank">View on GitHub</a>
+  </div>
+</div>
+    <button><a href="mailto:aidahjanwari595@gmail.com" class="contact-btn">
+  Contact me
+</a>
+  </button>
+    <p>Email:aidahjanwari595@gmail.com</P>
+   <script src="script.js"></script>
+   
+   <p>
+  GitHub:
+  <a href="https://github.com/aidah-bca" target="_blank">
+    https://github.com/aidah-bca
+  </a>
+</p>
+</div>
 </body>
 </html>
