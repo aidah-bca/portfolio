@@ -254,3 +254,62 @@ body {
 .github-link:hover {
   text-decoration: underline;
 }
+/* ===== DARK MODE ===== */
+body.dark-mode {
+  background: #0f172a; /* deep navy */
+  color: #e5e7eb; /* soft white */
+}
+
+body.dark-mode .container {
+  background: transparent;
+}
+
+body.dark-mode .hero {
+  background: #020617;
+  box-shadow: none;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #f8fafc;
+}
+
+body.dark-mode p {
+  color: #cbd5f5;
+}
+
+body.dark-mode .navbar {
+  background: #020617;
+}
+
+body.dark-mode .navbar a {
+  color: #e5e7eb;
+}
+
+body.dark-mode .project-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+}
+
+body.dark-mode .project-card a {
+  color: #60a5fa;
+}
+/* Dark mode improvements */
+body.dark-mode {
+  background: linear-gradient(180deg, #0b1220, #0f172a);
+  color: #e5e7eb;
+}
+
+body.dark-mode .hero {
+  background: rgba(15, 23, 42, 0.85);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .description {
+  color: #dbeafe;
+}
+
+body.dark-mode .hint {
+  color: #c7d2fe;
+}
